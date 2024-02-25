@@ -1,0 +1,14 @@
+server:
+  port: 2025
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dev
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  application:
+    name: EMPLOYEE-MANAGEMENT-SYSTEM
